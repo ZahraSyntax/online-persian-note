@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "817361778525",
+    "firebase_url": "https://online-note-de681-default-rtdb.firebaseio.com",
+    "project_id": "online-note-de681",
+    "storage_bucket": "online-note-de681.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:817361778525:android:aa6588d46eb5642e011ab4",
+        "android_client_info": {
+          "package_name": "bazzi.shariaty.notes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "817361778525-55fu186kdkrdqf5lhiodg9g4ket2eheb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "bazzi.shariaty.notes",
+            "certificate_hash": "76582be68c0e51010777e0d3e9e594191c761e16"
+          }
+        },
+        {
+          "client_id": "817361778525-7k6gh5dllc5enutnh2tq0oicgr7e67am.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4xYRYHiHgDmHFNDQIpyZxsk0epXkFeYU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "817361778525-7k6gh5dllc5enutnh2tq0oicgr7e67am.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
