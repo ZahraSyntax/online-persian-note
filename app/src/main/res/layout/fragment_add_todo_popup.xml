@@ -38,7 +38,6 @@
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                android:background="@color/white"
                 app:boxStrokeWidth="0dp"
                 app:boxStrokeWidthFocused="0dp"
                 app:hintEnabled="false">
@@ -47,9 +46,7 @@
                     android:id="@+id/todoEt"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
-                    android:background="@color/white"
-                    android:textColor="@color/black"
-                    android:hint="@string/add_your_note"
+                    android:hint="چیزی بنویسید..."
                     android:inputType="textEmailAddress"
                     android:paddingStart="12dp"
                     android:paddingTop="15dp" />

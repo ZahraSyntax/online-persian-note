@@ -60,7 +60,7 @@ class SignInFragment : Fragment() {
                     auth.createUserWithEmailAndPassword(email, pass).addOnCompleteListener { it ->
                         if (it.isSuccessful) {
                             Toast.makeText(context, "با موفقیت ثبت نام شدید", Toast.LENGTH_SHORT).show()
-                            navController.navigate(R.id.action_signInFragment_to_homeFragment)
+                            navController.navigate(R.id.action_signInFragment_to_homeNoteFragment)
                         } else {
                             Toast.makeText(context, "دوباره امتحان کنید", Toast.LENGTH_SHORT).show()
                         }
@@ -104,7 +104,7 @@ class SignInFragment : Fragment() {
         val credential = GoogleAuthProvider.getCredential(account.idToken, null)
         auth.signInWithCredential(credential).addOnCompleteListener { task ->
             if (task.isSuccessful) {
-                navController.navigate(R.id.action_signInFragment_to_homeFragment)
+                navController.navigate(R.id.action_signInFragment_to_homeNoteFragment)
             } else {
                 Toast.makeText(context, "ناموفق", Toast.LENGTH_SHORT).show()
             }

@@ -57,7 +57,7 @@ class LoginFragment : Fragment() {
                 auth.signInWithEmailAndPassword(email, pass).addOnCompleteListener {
                     if (it.isSuccessful) {
                         Toast.makeText(context, "با موفقیت وارد شدید", Toast.LENGTH_SHORT).show()
-                        navController.navigate(R.id.action_loginFragment_to_homeFragment)
+                        navController.navigate(R.id.action_loginFragment_to_homeNoteFragment)
                     } else {
                         Toast.makeText(context, "دوباره امتحان کنید", Toast.LENGTH_SHORT).show()
                     }
@@ -100,7 +100,7 @@ class LoginFragment : Fragment() {
         val credential = GoogleAuthProvider.getCredential(account.idToken, null)
         auth.signInWithCredential(credential).addOnCompleteListener { task ->
             if (task.isSuccessful) {
-                navController.navigate(R.id.action_loginFragment_to_homeFragment)
+                navController.navigate(R.id.action_loginFragment_to_homeNoteFragment)
             } else {
                 Toast.makeText(context, "ناموفق", Toast.LENGTH_SHORT).show()
             }

@@ -53,7 +53,6 @@
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                android:background="@color/white"
                 app:boxStrokeWidth="0dp"
                 app:boxStrokeWidthFocused="0dp"
                 app:hintEnabled="false">
@@ -62,7 +61,6 @@
                     android:id="@+id/emailEt"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:background="@color/white"
                     android:hint="@string/type_your_email"
                     android:inputType="textEmailAddress"
                     android:paddingStart="12dp"
@@ -92,7 +90,6 @@
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                android:background="@color/white"
                 app:boxStrokeWidth="0dp"
                 app:boxStrokeWidthFocused="0dp"
                 app:hintEnabled="false"
@@ -103,7 +100,6 @@
                     android:id="@+id/passEt"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:background="@color/white"
                     android:hint="@string/type_your_pass"
                     android:inputType="textPassword"
                     android:paddingStart="12dp"

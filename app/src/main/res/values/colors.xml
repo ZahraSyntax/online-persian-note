@@ -5,4 +5,8 @@
     
     <color name="text_color">#408da7</color>
     <color name="secondary_color">#2fa3aa</color>
+    <color name="background_white">#EDE9E9</color>
+    <color name="hintColor">#928E8E</color>
+    <color name="mainColor">#bab2f4</color>
+
 </resources>
